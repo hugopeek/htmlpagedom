@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wa72/htmlpagedom": "^1.3"
+    }
+}

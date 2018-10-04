@@ -1,0 +1,23 @@
+{
+    "name": "HtmlPageDom",
+    "lowCaseName": "htmlpagedom",
+    "description": "A MODX wrapper for HtmlPageDom, a library for easy manipulation of HTML documents using DOM. For more info, visit https://github.com/wasinger/htmlpagedom.",
+    "author": "Hugo Peek",
+    "version": "0.1.0",
+
+    "package": {
+        "elements": {
+            "plugins": [
+                {
+                    "name": "HtmlPageDom",
+                    "description": "This plugin is just a primer for getting started.",
+                    "events": []
+                }
+            ],
+
+            "categories": []
+        },
+
+        "systemSettings": []
+    }
+}
