@@ -7,10 +7,6 @@ config.core.php
 ###############
 _build/node_modules/
 
-# Vendors folder #
-##################
-core/components/htmlpagedom/vendor/
-
 # Packages #
 ############
 _packages/*.*
