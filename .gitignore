@@ -7,6 +7,10 @@ config.core.php
 ###############
 _build/node_modules/
 
+# Vendors folder #
+##################
+core/components/*/vendor/
+
 # Packages #
 ############
 _packages/*.*
