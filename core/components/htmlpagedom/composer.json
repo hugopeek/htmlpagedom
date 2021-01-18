@@ -1,5 +1,5 @@
 {
     "require": {
-        "wa72/htmlpagedom": "^2.0"
+        "wa72/htmlpagedom": "2.0.*"
     }
 }

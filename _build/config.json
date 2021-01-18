@@ -1,16 +1,16 @@
 {
     "name": "HtmlPageDom",
     "lowCaseName": "htmlpagedom",
-    "description": "A MODX wrapper for HtmlPageDom, a library for easy manipulation of HTML documents using DOM. For more info, visit https://github.com/wasinger/htmlpagedom.",
+    "description": "A MODX wrapper for HtmlPageDom, a library for easy DOM manipulation of HTML documents. For more info, visit https://github.com/wasinger/htmlpagedom.",
     "author": "Hugo Peek",
-    "version": "0.1.0",
+    "version": "1.0.0",
 
     "package": {
         "elements": {
             "plugins": [
                 {
                     "name": "HtmlPageDom",
-                    "description": "This plugin is just a primer for getting started.",
+                    "description": "This is just a primer for getting started. Copy and rename the plugin and attach it to the OnWebPagePrerender event",
                     "events": []
                 }
             ],
@@ -19,5 +19,19 @@
         },
 
         "systemSettings": []
-    }
+    },
+
+    "build": {
+        "readme": "docs/README.md",
+        "license": "docs/license.md",
+        "changelog": "docs/changelog.md"
+    },
+
+    "dependencies": [{
+        "name": "modx",
+        "version": ">=2.4"
+    },{
+        "name": "php",
+        "version": ">=7.1"
+    }]
 }

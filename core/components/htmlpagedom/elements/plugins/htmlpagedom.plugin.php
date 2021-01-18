@@ -30,6 +30,7 @@ switch ($modx->event->name) {
         // Do your thing
 
 
+        // Save manipulated DOM
         $output = $dom->saveHTML();
 
         break;
