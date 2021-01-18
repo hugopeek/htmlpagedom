@@ -67,6 +67,6 @@ Have fun!
 
 Some interesting resources:
 
-https://symfony.com/doc/current/components/dom_crawler.html
-https://victor.4devs.io/en/web-scraping/parsing-content-with-dom-crawler-and-css-selector.html
-https://stackoverflow.com/questions/19177578/symfony2-domcrawler-remove-nodes-from-domelement#29401018
+- https://symfony.com/doc/current/components/dom_crawler.html
+- https://victor.4devs.io/en/web-scraping/parsing-content-with-dom-crawler-and-css-selector.html
+- https://stackoverflow.com/questions/19177578/symfony2-domcrawler-remove-nodes-from-domelement#29401018
