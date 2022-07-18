@@ -22,7 +22,7 @@
         "systemSettings": []
     },
 
-    "extensionPackage": {
+    "extensionsPackage": {
         "serviceName": "htmlpagedom",
         "serviceClass": "HtmlPageDom"
     },
@@ -42,7 +42,13 @@
         "license": "docs/license.md",
         "changelog": "docs/changelog.md",
         "options": {
-            "composer": true
+            "composer": true,
+            "empty_folders": {
+                "{package_path}core/components/htmlpagedom/vendor/wa72/htmlpagedom/" : ".*",
+                "{package_path}core/components/htmlpagedom/vendor/symfony/deprecation-contracts" : ".*",
+                "{package_path}core/components/htmlpagedom/vendor/" : "*",
+                "{package_path}core/components/htmlpagedom/" : "vendor"
+            }
         },
         "resolver": {
             "after": [
