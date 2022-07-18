@@ -1,5 +1,6 @@
 {
     "require": {
-        "wa72/htmlpagedom": "2.0.*"
+        "php": ">=7.3",
+        "wa72/htmlpagedom": "2.*"
     }
 }
