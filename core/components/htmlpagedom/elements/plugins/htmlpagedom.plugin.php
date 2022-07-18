@@ -5,10 +5,9 @@
  * This is just an example plugin to get started. Duplicate and do your thing.
  */
 
-$corePath = $modx->getOption('htmlpagedom.core_path', null, $modx->getOption('core_path') . 'components/htmlpagedom/');
-
-if (!class_exists('\Wa72\HtmlPageDom\HtmlPageCrawler')) {
-    require $corePath . 'vendor/autoload.php';
+if (!class_exists(\Wa72\HtmlPageDom\HtmlPageCrawler::class)) {
+    $modx->log(modX::LOG_LEVEL_ERROR, '[HtmlPageDom] Class not found!');
+    return;
 }
 
 use \Wa72\HtmlPageDom\HtmlPageCrawler;

@@ -22,6 +22,11 @@
         "systemSettings": []
     },
 
+    "extensionPackage": {
+        "serviceName": "htmlpagedom",
+        "serviceClass": "HtmlPageDom"
+    },
+
     "dependencies": [
         {
             "name": "modx",

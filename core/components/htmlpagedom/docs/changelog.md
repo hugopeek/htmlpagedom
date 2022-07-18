@@ -3,6 +3,7 @@
 ## HtmlPageDom 1.1.0
 Released on July 18, 2022
 
+- Autoload main class through extension package
 - Auto-install library with local Composer
 
 ## HtmlPageDom 1.0.0
