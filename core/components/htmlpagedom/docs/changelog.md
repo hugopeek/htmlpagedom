@@ -1,5 +1,11 @@
 # Changelog for HtmlPageDom
 
+## HtmlPageDom 1.1.1
+Released on September 12, 2022
+
+- Add constructor to base class
+- Add missing resolver for extension package
+
 ## HtmlPageDom 1.1.0
 Released on July 18, 2022
 

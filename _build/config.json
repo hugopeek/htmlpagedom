@@ -3,7 +3,7 @@
     "lowCaseName": "htmlpagedom",
     "description": "A MODX wrapper for HtmlPageDom, a library for easy DOM manipulation of HTML documents.",
     "author": "Hugo Peek",
-    "version": "1.1.0",
+    "version": "1.1.1",
 
     "package": {
         "elements": {
@@ -22,7 +22,7 @@
         "systemSettings": []
     },
 
-    "extensionsPackage": {
+    "extensionPackage": {
         "serviceName": "htmlpagedom",
         "serviceClass": "HtmlPageDom"
     },
@@ -42,13 +42,7 @@
         "license": "docs/license.md",
         "changelog": "docs/changelog.md",
         "options": {
-            "composer": true,
-            "empty_folders": {
-                "{package_path}core/components/htmlpagedom/vendor/wa72/htmlpagedom/" : ".*",
-                "{package_path}core/components/htmlpagedom/vendor/symfony/deprecation-contracts" : ".*",
-                "{package_path}core/components/htmlpagedom/vendor/" : "*",
-                "{package_path}core/components/htmlpagedom/" : "vendor"
-            }
+            "composer": true
         },
         "resolver": {
             "after": [
