@@ -1,10 +1,10 @@
 # Changelog for HtmlPageDom
 
-## HtmlPageDom 1.1.1
-Released on September 12, 2022
+## HtmlPageDom 1.2.0
+Released on August 26, 2023
 
-- Add constructor to base class
-- Add missing resolver for extension package
+- Change license to MIT
+- Update HtmlPageDom to v3.0 (requires PHP 8)
 
 ## HtmlPageDom 1.1.0
 Released on July 18, 2022

@@ -1,6 +1,16 @@
 {
+    "name": "fractalfarming/htmlpagedom",
+    "description": "A MODX wrapper for HtmlPageDom, a library for easy DOM manipulation of HTML documents.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hugopeek",
+            "email": "hugo@fractal-farming.com"
+        }
+    ],
     "require": {
-        "php": ">=7.3",
-        "wa72/htmlpagedom": "2.*"
+        "php": ">=8.0",
+        "wa72/htmlpagedom": "3.*"
     }
 }
