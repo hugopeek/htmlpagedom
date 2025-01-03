@@ -1,5 +1,10 @@
 # Changelog for HtmlPageDom
 
+## HtmlPageDom 1.2.1
+Released on January 3, 2025
+
+- Update HtmlPageDom to v3.0.2
+
 ## HtmlPageDom 1.2.0
 Released on August 26, 2023
 

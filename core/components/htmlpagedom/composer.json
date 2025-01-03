@@ -11,6 +11,6 @@
     ],
     "require": {
         "php": ">=8.0",
-        "wa72/htmlpagedom": "3.*"
+        "wa72/htmlpagedom": "v3.0.2"
     }
 }
